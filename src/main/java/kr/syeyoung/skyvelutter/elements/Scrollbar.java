@@ -18,16 +18,16 @@
 
 package kr.syeyoung.skyvelutter.elements;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.BindableAttribute;
-import kr.syeyoung.dungeonsguide.mod.guiv2.Widget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.layouter.Layouter;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.Size;
-import kr.syeyoung.dungeonsguide.mod.guiv2.renderer.OnlyChildrenRenderer;
-import kr.syeyoung.dungeonsguide.mod.guiv2.renderer.Renderer;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.AnnotatedWidget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.annotations.Bind;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.annotations.Export;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.annotations.Passthrough;
+import kr.syeyoung.skyvelutter.BindableAttribute;
+import kr.syeyoung.skyvelutter.Widget;
+import kr.syeyoung.skyvelutter.layouter.Layouter;
+import kr.syeyoung.skyvelutter.primitive.Size;
+import kr.syeyoung.skyvelutter.renderer.OnlyChildrenRenderer;
+import kr.syeyoung.skyvelutter.renderer.Renderer;
+import kr.syeyoung.skyvelutter.xml.AnnotatedWidget;
+import kr.syeyoung.skyvelutter.xml.annotations.Bind;
+import kr.syeyoung.skyvelutter.xml.annotations.Export;
+import kr.syeyoung.skyvelutter.xml.annotations.Passthrough;
 import net.minecraft.util.ResourceLocation;
 
 @Passthrough(exportName = "_track", bindName = "track", type = Widget.class)

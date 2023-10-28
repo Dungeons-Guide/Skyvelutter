@@ -37,17 +37,17 @@ public interface ITextStyle {
     Boolean isShadow();
     Boolean hasBackground();
 
-    kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.shaders.Shader getBackgroundShader();
+    kr.syeyoung.skyvelutter.elements.richtext.shaders.Shader getBackgroundShader();
 
-    kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.shaders.Shader getTextShader();
+    kr.syeyoung.skyvelutter.elements.richtext.shaders.Shader getTextShader();
 
-    kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.shaders.Shader getStrikeThroughShader();
+    kr.syeyoung.skyvelutter.elements.richtext.shaders.Shader getStrikeThroughShader();
 
-    kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.shaders.Shader getUnderlineShader();
+    kr.syeyoung.skyvelutter.elements.richtext.shaders.Shader getUnderlineShader();
 
-    kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.shaders.Shader getOutlineShader();
+    kr.syeyoung.skyvelutter.elements.richtext.shaders.Shader getOutlineShader();
 
-    kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.shaders.Shader getShadowShader();
+    kr.syeyoung.skyvelutter.elements.richtext.shaders.Shader getShadowShader();
 
-    kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.fonts.FontRenderer getFontRenderer();
+    kr.syeyoung.skyvelutter.elements.richtext.fonts.FontRenderer getFontRenderer();
 }

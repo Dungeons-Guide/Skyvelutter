@@ -18,7 +18,7 @@
 
 package kr.syeyoung.skyvelutter.xml.data;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.StringConversions;
+import kr.syeyoung.skyvelutter.xml.StringConversions;
 import org.w3c.dom.*;
 
 import java.util.HashSet;

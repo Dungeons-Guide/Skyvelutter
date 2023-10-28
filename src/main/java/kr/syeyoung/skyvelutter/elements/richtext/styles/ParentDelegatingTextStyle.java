@@ -18,10 +18,10 @@
 
 package kr.syeyoung.skyvelutter.elements.richtext.styles;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.fonts.DefaultFontRenderer;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.fonts.FontRenderer;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.shaders.Shader;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.shaders.SingleColorShader;
+import kr.syeyoung.skyvelutter.elements.richtext.fonts.DefaultFontRenderer;
+import kr.syeyoung.skyvelutter.elements.richtext.fonts.FontRenderer;
+import kr.syeyoung.skyvelutter.elements.richtext.shaders.Shader;
+import kr.syeyoung.skyvelutter.elements.richtext.shaders.SingleColorShader;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;

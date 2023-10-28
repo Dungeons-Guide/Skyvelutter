@@ -18,11 +18,11 @@
 
 package kr.syeyoung.skyvelutter.elements.image;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.BindableAttribute;
-import kr.syeyoung.dungeonsguide.mod.guiv2.DomElement;
-import kr.syeyoung.dungeonsguide.mod.guiv2.Widget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.AnnotatedExportOnlyWidget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.annotations.Export;
+import kr.syeyoung.skyvelutter.BindableAttribute;
+import kr.syeyoung.skyvelutter.DomElement;
+import kr.syeyoung.skyvelutter.Widget;
+import kr.syeyoung.skyvelutter.xml.AnnotatedExportOnlyWidget;
+import kr.syeyoung.skyvelutter.xml.annotations.Export;
 import net.minecraft.util.ResourceLocation;
 
 import java.util.Collections;

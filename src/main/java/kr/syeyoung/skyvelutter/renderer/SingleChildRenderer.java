@@ -18,8 +18,8 @@
 
 package kr.syeyoung.skyvelutter.renderer;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.DomElement;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.Rect;
+import kr.syeyoung.skyvelutter.DomElement;
+import kr.syeyoung.skyvelutter.primitive.Rect;
 import net.minecraft.client.renderer.GlStateManager;
 
 public class SingleChildRenderer implements Renderer {

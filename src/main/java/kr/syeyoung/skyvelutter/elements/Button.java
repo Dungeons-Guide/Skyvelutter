@@ -18,18 +18,18 @@
 
 package kr.syeyoung.skyvelutter.elements;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.BindableAttribute;
-import kr.syeyoung.dungeonsguide.mod.guiv2.DomElement;
-import kr.syeyoung.dungeonsguide.mod.guiv2.Widget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.layouter.Layouter;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.Rect;
-import kr.syeyoung.dungeonsguide.mod.guiv2.renderer.Renderer;
-import kr.syeyoung.dungeonsguide.mod.guiv2.renderer.RenderingContext;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.AnnotatedWidget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.annotations.Bind;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.annotations.Export;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.annotations.Passthrough;
-import kr.syeyoung.dungeonsguide.mod.utils.cursor.EnumCursor;
+import kr.syeyoung.skyvelutter.BindableAttribute;
+import kr.syeyoung.skyvelutter.DomElement;
+import kr.syeyoung.skyvelutter.Widget;
+import kr.syeyoung.skyvelutter.layouter.Layouter;
+import kr.syeyoung.skyvelutter.primitive.Rect;
+import kr.syeyoung.skyvelutter.renderer.Renderer;
+import kr.syeyoung.skyvelutter.renderer.RenderingContext;
+import kr.syeyoung.skyvelutter.xml.AnnotatedWidget;
+import kr.syeyoung.skyvelutter.xml.annotations.Bind;
+import kr.syeyoung.skyvelutter.xml.annotations.Export;
+import kr.syeyoung.skyvelutter.xml.annotations.Passthrough;
+import kr.syeyoung.skyvelutter.utils.cursor.EnumCursor;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.util.ResourceLocation;
 

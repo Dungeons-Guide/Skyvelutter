@@ -18,10 +18,10 @@
 
 package kr.syeyoung.skyvelutter.elements.image;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.DomElement;
-import kr.syeyoung.dungeonsguide.mod.guiv2.Widget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.renderer.Renderer;
-import kr.syeyoung.dungeonsguide.mod.guiv2.renderer.RenderingContext;
+import kr.syeyoung.skyvelutter.DomElement;
+import kr.syeyoung.skyvelutter.Widget;
+import kr.syeyoung.skyvelutter.renderer.Renderer;
+import kr.syeyoung.skyvelutter.renderer.RenderingContext;
 import lombok.AllArgsConstructor;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ResourceLocation;

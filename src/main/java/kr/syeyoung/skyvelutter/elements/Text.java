@@ -18,19 +18,19 @@
 
 package kr.syeyoung.skyvelutter.elements;
 
-import kr.syeyoung.dungeonsguide.mod.config.types.AColor;
-import kr.syeyoung.dungeonsguide.mod.guiv2.BindableAttribute;
-import kr.syeyoung.dungeonsguide.mod.guiv2.DomElement;
-import kr.syeyoung.dungeonsguide.mod.guiv2.Widget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.BreakWord;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.RichText;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.TextSpan;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.shaders.ChromaShader;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.shaders.Shader;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.shaders.SingleColorShader;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.styles.ParentDelegatingTextStyle;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.AnnotatedExportOnlyWidget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.annotations.Export;
+import kr.syeyoung.skyvelutter.BindableAttribute;
+import kr.syeyoung.skyvelutter.DomElement;
+import kr.syeyoung.skyvelutter.Widget;
+import kr.syeyoung.skyvelutter.elements.richtext.BreakWord;
+import kr.syeyoung.skyvelutter.elements.richtext.RichText;
+import kr.syeyoung.skyvelutter.elements.richtext.TextSpan;
+import kr.syeyoung.skyvelutter.elements.richtext.shaders.ChromaShader;
+import kr.syeyoung.skyvelutter.elements.richtext.shaders.Shader;
+import kr.syeyoung.skyvelutter.elements.richtext.shaders.SingleColorShader;
+import kr.syeyoung.skyvelutter.elements.richtext.styles.ParentDelegatingTextStyle;
+import kr.syeyoung.skyvelutter.utils.AColor;
+import kr.syeyoung.skyvelutter.xml.AnnotatedExportOnlyWidget;
+import kr.syeyoung.skyvelutter.xml.annotations.Export;
 
 import java.util.ArrayList;
 import java.util.Collections;

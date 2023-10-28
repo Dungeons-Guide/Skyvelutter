@@ -18,7 +18,7 @@
 
 package kr.syeyoung.skyvelutter.elements.richtext;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.styles.ITextStyle;
+import kr.syeyoung.skyvelutter.elements.richtext.styles.ITextStyle;
 
 public class FlatTextSpan {
     public final ITextStyle textStyle;

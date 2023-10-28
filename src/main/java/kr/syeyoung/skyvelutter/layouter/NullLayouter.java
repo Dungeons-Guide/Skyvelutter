@@ -18,9 +18,9 @@
 
 package kr.syeyoung.skyvelutter.layouter;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.DomElement;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.ConstraintBox;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.Size;
+import kr.syeyoung.skyvelutter.DomElement;
+import kr.syeyoung.skyvelutter.primitive.ConstraintBox;
+import kr.syeyoung.skyvelutter.primitive.Size;
 
 public class NullLayouter implements Layouter {
     public static final NullLayouter INSTANCE = new NullLayouter();

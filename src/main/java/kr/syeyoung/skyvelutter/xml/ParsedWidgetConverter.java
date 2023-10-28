@@ -18,8 +18,8 @@
 
 package kr.syeyoung.skyvelutter.xml;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.Widget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.data.ParserElement;
+import kr.syeyoung.skyvelutter.Widget;
+import kr.syeyoung.skyvelutter.xml.data.ParserElement;
 
 /**
  * This class is for converting xml elements to widgets, to be used by XMLWidget

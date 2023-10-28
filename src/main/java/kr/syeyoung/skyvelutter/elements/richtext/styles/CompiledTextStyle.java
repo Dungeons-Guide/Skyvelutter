@@ -18,8 +18,8 @@
 
 package kr.syeyoung.skyvelutter.elements.richtext.styles;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.fonts.FontRenderer;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.shaders.Shader;
+import kr.syeyoung.skyvelutter.elements.richtext.fonts.FontRenderer;
+import kr.syeyoung.skyvelutter.elements.richtext.shaders.Shader;
 
 public class CompiledTextStyle implements ITextStyle {
     public Double size;

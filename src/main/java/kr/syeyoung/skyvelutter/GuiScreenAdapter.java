@@ -18,12 +18,12 @@
 
 package kr.syeyoung.skyvelutter;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.ConstraintBox;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.Rect;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.Size;
-import kr.syeyoung.dungeonsguide.mod.guiv2.renderer.RenderingContext;
-import kr.syeyoung.dungeonsguide.mod.utils.cursor.EnumCursor;
-import kr.syeyoung.dungeonsguide.mod.utils.cursor.GLCursors;
+import kr.syeyoung.skyvelutter.primitive.ConstraintBox;
+import kr.syeyoung.skyvelutter.primitive.Rect;
+import kr.syeyoung.skyvelutter.primitive.Size;
+import kr.syeyoung.skyvelutter.renderer.RenderingContext;
+import kr.syeyoung.skyvelutter.utils.cursor.EnumCursor;
+import kr.syeyoung.skyvelutter.utils.cursor.GLCursors;
 import lombok.Getter;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;

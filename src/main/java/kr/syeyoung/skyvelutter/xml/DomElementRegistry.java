@@ -18,15 +18,15 @@
 
 package kr.syeyoung.skyvelutter.xml;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.Widget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.*;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.image.ResourceImage;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.image.URLImage;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.popups.PopupMgr;
-import kr.syeyoung.dungeonsguide.mod.guiv2.view.TestView;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.data.Parser;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.data.ParserException;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.data.W3CBackedParser;
+import kr.syeyoung.skyvelutter.Widget;
+import kr.syeyoung.skyvelutter.elements.*;
+import kr.syeyoung.skyvelutter.elements.image.ResourceImage;
+import kr.syeyoung.skyvelutter.elements.image.URLImage;
+import kr.syeyoung.skyvelutter.elements.popups.PopupMgr;
+import kr.syeyoung.skyvelutter.view.TestView;
+import kr.syeyoung.skyvelutter.xml.data.Parser;
+import kr.syeyoung.skyvelutter.xml.data.ParserException;
+import kr.syeyoung.skyvelutter.xml.data.W3CBackedParser;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.IResource;
 import net.minecraft.util.ResourceLocation;

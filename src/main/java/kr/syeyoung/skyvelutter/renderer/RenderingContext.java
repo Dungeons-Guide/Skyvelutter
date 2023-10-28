@@ -18,8 +18,8 @@
 
 package kr.syeyoung.skyvelutter.renderer;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.Rect;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.Size;
+import kr.syeyoung.skyvelutter.primitive.Rect;
+import kr.syeyoung.skyvelutter.primitive.Size;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.Tessellator;

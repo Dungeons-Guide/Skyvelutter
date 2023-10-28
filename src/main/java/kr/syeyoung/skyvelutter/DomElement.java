@@ -18,16 +18,16 @@
 
 package kr.syeyoung.skyvelutter;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.Stack;
-import kr.syeyoung.dungeonsguide.mod.guiv2.layouter.Layouter;
-import kr.syeyoung.dungeonsguide.mod.guiv2.layouter.NullLayouter;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.ConstraintBox;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.Position;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.Rect;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.Size;
-import kr.syeyoung.dungeonsguide.mod.guiv2.renderer.DrawNothingRenderer;
-import kr.syeyoung.dungeonsguide.mod.guiv2.renderer.Renderer;
-import kr.syeyoung.dungeonsguide.mod.utils.cursor.EnumCursor;
+import kr.syeyoung.skyvelutter.elements.Stack;
+import kr.syeyoung.skyvelutter.layouter.Layouter;
+import kr.syeyoung.skyvelutter.layouter.NullLayouter;
+import kr.syeyoung.skyvelutter.primitive.ConstraintBox;
+import kr.syeyoung.skyvelutter.primitive.Position;
+import kr.syeyoung.skyvelutter.primitive.Rect;
+import kr.syeyoung.skyvelutter.primitive.Size;
+import kr.syeyoung.skyvelutter.renderer.DrawNothingRenderer;
+import kr.syeyoung.skyvelutter.renderer.Renderer;
+import kr.syeyoung.skyvelutter.utils.cursor.EnumCursor;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;

@@ -18,8 +18,8 @@
 
 package kr.syeyoung.skyvelutter.elements.richtext.fonts;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.FlatTextSpan;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.styles.ITextStyle;
+import kr.syeyoung.skyvelutter.elements.richtext.FlatTextSpan;
+import kr.syeyoung.skyvelutter.elements.richtext.styles.ITextStyle;
 
 public interface FontRenderer {
     double getWidth(char text, ITextStyle textStyle);

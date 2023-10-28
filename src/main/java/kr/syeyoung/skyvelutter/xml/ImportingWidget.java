@@ -18,7 +18,7 @@
 
 package kr.syeyoung.skyvelutter.xml;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.BindableAttribute;
+import kr.syeyoung.skyvelutter.BindableAttribute;
 
 import java.lang.invoke.MethodHandle;
 

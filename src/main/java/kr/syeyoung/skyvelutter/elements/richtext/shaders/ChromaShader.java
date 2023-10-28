@@ -18,8 +18,8 @@
 
 package kr.syeyoung.skyvelutter.elements.richtext.shaders;
 
-import kr.syeyoung.dungeonsguide.mod.config.types.AColor;
-import kr.syeyoung.dungeonsguide.mod.utils.RenderUtils;
+import kr.syeyoung.skyvelutter.utils.AColor;
+import kr.syeyoung.skyvelutter.utils.RenderUtils;
 import net.minecraft.client.renderer.GlStateManager;
 
 public class ChromaShader implements Shader {

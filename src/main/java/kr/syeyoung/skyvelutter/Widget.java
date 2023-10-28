@@ -18,10 +18,10 @@
 
 package kr.syeyoung.skyvelutter;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.layouter.Layouter;
-import kr.syeyoung.dungeonsguide.mod.guiv2.layouter.SingleChildPassingLayouter;
-import kr.syeyoung.dungeonsguide.mod.guiv2.renderer.Renderer;
-import kr.syeyoung.dungeonsguide.mod.guiv2.renderer.SingleChildRenderer;
+import kr.syeyoung.skyvelutter.layouter.Layouter;
+import kr.syeyoung.skyvelutter.layouter.SingleChildPassingLayouter;
+import kr.syeyoung.skyvelutter.renderer.Renderer;
+import kr.syeyoung.skyvelutter.renderer.SingleChildRenderer;
 import lombok.Getter;
 
 import java.util.List;

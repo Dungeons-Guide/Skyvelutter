@@ -18,7 +18,7 @@
 
 package kr.syeyoung.skyvelutter.xml.data;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.Widget;
+import kr.syeyoung.skyvelutter.Widget;
 
 import java.util.List;
 

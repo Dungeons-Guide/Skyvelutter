@@ -20,8 +20,6 @@ package kr.syeyoung.skyvelutter.elements.image;
 
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
-import kr.syeyoung.dungeonsguide.mod.DungeonsGuide;
-import kr.syeyoung.dungeonsguide.mod.VersionInfo;
 import lombok.Data;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -78,7 +76,7 @@ public class ImageTexture {
 
         URL urlObj = new URL(url);
         HttpURLConnection huc = (HttpURLConnection) urlObj.openConnection();
-        huc.addRequestProperty("User-Agent", "DungeonsGuide (dungeons.guide, "+ VersionInfo.VERSION +")");
+        huc.addRequestProperty("User-Agent", "Skyvelutter 1.0");
         ImageInputStream imageInputStream = ImageIO.createImageInputStream(huc.getInputStream());
         Iterator<ImageReader> readers = ImageIO.getImageReaders(imageInputStream);
         if(!readers.hasNext()) throw new IOException("No image reader what" + url);
@@ -150,9 +148,8 @@ public class ImageTexture {
         tessellator.draw();
     }
 
-    public static final ExecutorService executorService = DungeonsGuide.getDungeonsGuide().registerExecutorService(Executors.newFixedThreadPool(3, new ThreadFactoryBuilder()
-            .setThreadFactory(DungeonsGuide.THREAD_FACTORY)
-            .setNameFormat("DG-ImageFetcher-%d").build()));
+    public static final ExecutorService executorService = Executors.newFixedThreadPool(3, new ThreadFactoryBuilder()
+            .setNameFormat("Skyvelutter-ImageFetcher-%d").build());
     public static final Map<String, ImageTexture> imageMap = new HashMap<>();
     public static final Logger logger = LogManager.getLogger("DG-ImageLoader");
     public static void loadImage(String url, Consumer<ImageTexture> callback) {

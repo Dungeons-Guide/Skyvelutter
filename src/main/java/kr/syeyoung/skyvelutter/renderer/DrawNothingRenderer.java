@@ -18,7 +18,7 @@
 
 package kr.syeyoung.skyvelutter.renderer;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.DomElement;
+import kr.syeyoung.skyvelutter.DomElement;
 
 public class DrawNothingRenderer implements Renderer{
     public static DrawNothingRenderer INSTANCE = new DrawNothingRenderer();

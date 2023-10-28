@@ -18,11 +18,11 @@
 
 package kr.syeyoung.skyvelutter.xml;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.BindableAttribute;
-import kr.syeyoung.dungeonsguide.mod.guiv2.Widget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.data.ParserElement;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.data.ParserElementList;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.data.WidgetList;
+import kr.syeyoung.skyvelutter.BindableAttribute;
+import kr.syeyoung.skyvelutter.Widget;
+import kr.syeyoung.skyvelutter.xml.data.ParserElement;
+import kr.syeyoung.skyvelutter.xml.data.ParserElementList;
+import kr.syeyoung.skyvelutter.xml.data.WidgetList;
 
 import java.lang.invoke.LambdaMetafactory;
 import java.lang.invoke.MethodHandle;

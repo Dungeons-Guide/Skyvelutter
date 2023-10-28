@@ -18,9 +18,9 @@
 
 package kr.syeyoung.skyvelutter;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.layouter.SingleChildPassingLayouter;
-import kr.syeyoung.dungeonsguide.mod.guiv2.renderer.SingleChildRenderer;
-import kr.syeyoung.dungeonsguide.mod.utils.cursor.EnumCursor;
+import kr.syeyoung.skyvelutter.layouter.SingleChildPassingLayouter;
+import kr.syeyoung.skyvelutter.renderer.SingleChildRenderer;
+import kr.syeyoung.skyvelutter.utils.cursor.EnumCursor;
 import lombok.Getter;
 import lombok.Setter;
 

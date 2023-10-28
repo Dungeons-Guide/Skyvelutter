@@ -18,9 +18,9 @@
 
 package kr.syeyoung.skyvelutter.view;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.popups.PopupMgr;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.AnnotatedImportOnlyWidget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.annotations.On;
+import kr.syeyoung.skyvelutter.elements.popups.PopupMgr;
+import kr.syeyoung.skyvelutter.xml.AnnotatedImportOnlyWidget;
+import kr.syeyoung.skyvelutter.xml.annotations.On;
 import net.minecraft.util.ResourceLocation;
 
 public class TestPopup extends AnnotatedImportOnlyWidget {

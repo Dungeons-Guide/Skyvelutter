@@ -18,9 +18,9 @@
 
 package kr.syeyoung.skyvelutter.elements.richtext;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.styles.CompiledTextStyle;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.styles.ITextStyle;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.richtext.styles.ParentDelegatingTextStyle;
+import kr.syeyoung.skyvelutter.elements.richtext.styles.CompiledTextStyle;
+import kr.syeyoung.skyvelutter.elements.richtext.styles.ITextStyle;
+import kr.syeyoung.skyvelutter.elements.richtext.styles.ParentDelegatingTextStyle;
 import lombok.Getter;
 import lombok.Setter;
 

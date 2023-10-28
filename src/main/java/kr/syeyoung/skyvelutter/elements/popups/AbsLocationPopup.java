@@ -18,16 +18,16 @@
 
 package kr.syeyoung.skyvelutter.elements.popups;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.BindableAttribute;
-import kr.syeyoung.dungeonsguide.mod.guiv2.DomElement;
-import kr.syeyoung.dungeonsguide.mod.guiv2.Widget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.layouter.Layouter;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.Rect;
-import kr.syeyoung.dungeonsguide.mod.guiv2.primitive.Size;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.AnnotatedImportOnlyWidget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.AnnotatedWidget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.annotations.Bind;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.annotations.Export;
+import kr.syeyoung.skyvelutter.BindableAttribute;
+import kr.syeyoung.skyvelutter.DomElement;
+import kr.syeyoung.skyvelutter.Widget;
+import kr.syeyoung.skyvelutter.layouter.Layouter;
+import kr.syeyoung.skyvelutter.primitive.Rect;
+import kr.syeyoung.skyvelutter.primitive.Size;
+import kr.syeyoung.skyvelutter.xml.AnnotatedImportOnlyWidget;
+import kr.syeyoung.skyvelutter.xml.AnnotatedWidget;
+import kr.syeyoung.skyvelutter.xml.annotations.Bind;
+import kr.syeyoung.skyvelutter.xml.annotations.Export;
 import net.minecraft.util.ResourceLocation;
 
 public class AbsLocationPopup extends AnnotatedImportOnlyWidget {

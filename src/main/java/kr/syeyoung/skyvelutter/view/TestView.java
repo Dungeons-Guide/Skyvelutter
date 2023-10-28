@@ -18,11 +18,11 @@
 
 package kr.syeyoung.skyvelutter.view;
 
-import kr.syeyoung.dungeonsguide.mod.guiv2.BindableAttribute;
-import kr.syeyoung.dungeonsguide.mod.guiv2.elements.popups.PopupMgr;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.AnnotatedImportOnlyWidget;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.annotations.Bind;
-import kr.syeyoung.dungeonsguide.mod.guiv2.xml.annotations.On;
+import kr.syeyoung.skyvelutter.BindableAttribute;
+import kr.syeyoung.skyvelutter.elements.popups.PopupMgr;
+import kr.syeyoung.skyvelutter.xml.AnnotatedImportOnlyWidget;
+import kr.syeyoung.skyvelutter.xml.annotations.Bind;
+import kr.syeyoung.skyvelutter.xml.annotations.On;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ResourceLocation;
 
