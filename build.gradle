@@ -25,12 +25,22 @@ repositories {
             includeGroupByRegex("(com|io)\\.github\\..+")
         }
     }
+    maven {url "https://pkgs.dev.azure.com/djtheredstoner/DevAuth/_packaging/public/maven/v1"}
 }
 
 configurations {
     implementation.extendsFrom shadowImpl
+    modRuntimeOnly.extendsFrom devEnv {
+        transitive = false
+        visible = false
+    }
 }
 
+
+def devenvMod = configurations.create("devenvMod") {
+    setTransitive(false)
+    setVisible(false)
+}
 
 dependencies {
     minecraft("com.mojang:minecraft:1.8.9")
@@ -50,7 +60,13 @@ dependencies {
 
     testCompileOnly "org.projectlombok:lombok:1.18.20"
     testAnnotationProcessor "org.projectlombok:lombok:1.18.20"
+
+    def files= fileTree("../runtime/mods").filter { it.isFile() }
+    add("devenvMod", files)
+
+    devEnv("me.djtheredstoner:DevAuth-forge-legacy:1.1.0")
 }
+
 
 loom {
     launchConfigs {
