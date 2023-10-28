@@ -1,19 +1,103 @@
 plugins {
-    id 'java'
+    id "idea"
+    id "java"
+    id "com.github.johnrengelman.shadow" version "7.1.2"
+    id "dev.architectury.architectury-pack200" version "0.1.3"
+    id "gg.essential.loom" version "0.10.0.+"
 }
 
-group 'kr.syeyoung'
-version '1.0-SNAPSHOT'
+version = "0.0.1"
+group = "kr.syeyoung"
+
+java {
+    toolchain.languageVersion.set(JavaLanguageVersion.of(8))
+}
+
+sourceSets.main {
+    output.setResourcesDir(file("$buildDir/classes/java/main"))
+}
 
 repositories {
     mavenCentral()
+    maven {
+        url "https://jitpack.io/"
+        content {
+            includeGroupByRegex("(com|io)\\.github\\..+")
+        }
+    }
 }
+
+configurations {
+    implementation.extendsFrom shadowImpl
+}
+
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    minecraft("com.mojang:minecraft:1.8.9")
+    mappings("de.oceanlabs.mcp:mcp_stable:22-1.8.9")
+    forge("net.minecraftforge:forge:1.8.9-11.15.1.2318-1.8.9")
+
+
+    implementation "org.jetbrains:annotations-java5:19.0.0"
+    implementation "com.twelvemonkeys.imageio:imageio-bmp:3.7.0"
+
+
+    implementation 'net.java.dev.jna:jna:5.12.1' // sorry minecraft.
+
+
+    compileOnly "org.projectlombok:lombok:1.18.20"
+    annotationProcessor "org.projectlombok:lombok:1.18.16"
+
+    testCompileOnly "org.projectlombok:lombok:1.18.20"
+    testAnnotationProcessor "org.projectlombok:lombok:1.18.20"
 }
 
-test {
-    useJUnitPlatform()
+loom {
+    launchConfigs {
+        client {
+            arg("--mods", devenvMod.files.collect { file("../runtime").relativePath(it) }.join(","))
+        }
+    }
+    runConfigs {
+        named("client") {
+            ideConfigGenerated(true)
+            vmArgs.remove("-XstartOnFirstThread")
+        }
+    }
+    runs {
+        client {
+            runDir = '../runtime'
+            client()
+            vmArgs.remove("-XstartOnFirstThread")
+        }
+    }
+    forge {
+        pack200Provider.set(new dev.architectury.pack200.java.Pack200Adapter())
+    }
 }
+
+ext.genOutputDir = file("$buildDir/generated-resources")
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+tasks.shadowJar {
+
+    archiveFileName = jar.archiveFileName
+
+    dependencies {
+        include(dependency("org.slf4j:slf4j-api:1.7.25"))
+        include(dependency("net.java.dev.jna:jna:5.12.1"))
+    }
+}
+
+tasks.named("remapJar") {
+    archiveClassifier = "mapped"
+    from(tasks.shadowJar)
+    input = tasks.shadowJar.archiveFile
+}
+
+
+tasks.assemble.dependsOn tasks.remapJar
+
